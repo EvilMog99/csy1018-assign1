@@ -1,0 +1,66 @@
+
+
+
+html, body {
+  height: 100%;
+}
+
+
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    /*font-size: 62.5%;*/
+    background: rgb(149, 194, 215);
+}
+
+
+.index-title{
+
+  background: red;
+  text-align: center;
+  /*text-transform: uppercase;*/
+  font-size: 3.5em;
+  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
+}
+
+.index-header{
+  flex: 0 1 auto;
+}
+
+.img1{
+  width: 40%;
+
+  /*flex: 1 1 auto;
+  flex*/
+  display: flex;
+
+}
+
+.nav{
+  justify-content: space-between;
+  margin: 1em;
+
+  /*white-space: nowrap;
+  overflow-x: auto;*/
+
+  order: -1;/*puts navigation at the top of the screen*/
+  padding: 1em;
+  background: rgb(255, 0, 0);
+  flex-direction: row;/*put naviagation points into a row across the screen*/
+  display: flex;/*make display the values in flex*/
+}
+
+.eachnav{
+
+}
+
+.footer {
+  padding: 0.5em;/*height of surrounding container*/
+  background: rgb(227, 93, 60);/*colour of surrounding container*/
+  text-align: center;;
+}
