@@ -54,12 +54,19 @@ body {
   font-size: 2em;
 }
 
-.link-style{
+.link-style{/*for links at the top of the screen*/
   background: rgb(180, 200, 255);
   /*text-align: center;*/
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
   font-size: 1.5em;
 }
+.sel-link-style{/*for links at the top of the screen which are for the current page*/
+  background: rgb(220, 220, 255);
+  /*text-align: center;*/
+  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
+  font-size: 1.5em;
+}
+
 
 .index-header{
   flex: 0 1 auto;
@@ -83,6 +90,47 @@ body {
   display: flex;
 }
 
+/*to be used in general, but mainly in the cv page*/
+.article-type1{/*this sets the background to go around the article*/
+
+  /*background: rgb(100, 200, 250);*/
+
+  margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
+
+  padding: 1em;
+  background: rgb(100, 150, 250);
+
+  max-width: 40em;
+  min-width: 40em;
+
+  max-height: 40em;
+  min-height: 40em;
+/*
+   max-width: 50em;
+   min-width: 50em;
+
+   max-height: 50em;
+   min-height: 50em;
+  padding: 0em;*/
+  /*margin-left: 1em;*/
+
+}
+.article1-div-content{/*this goes inside article-type1 to hold text*/
+
+  /*margin-left: 5em;*/
+  /*margin-top: 5em;*/
+
+  margin: 0em;
+
+  padding: 1em;
+  background: rgb(90, 140, 240);
+
+  max-width: 40em;
+  min-width: 40em;
+
+  max-height: 40em;
+  min-height: 40em;
+}
 /*type 2 for the index page*/
 .article-type2{/*this sets the background to go around the article*/
 
@@ -134,7 +182,7 @@ body {
   max-height: 30em;
   min-height: 30em;
 
-
+  align-self: center;/*put self at the middle of the screen*/
 }
 .article3-div-content{/*this goes inside article-type1 to hold text*/
 
@@ -174,65 +222,6 @@ body {
 }
 
 
-.article-type1{/*this sets the background to go around the article*/
-
-  /*background: rgb(100, 200, 250);*/
-
-  margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
-
-  padding: 1em;
-  background: rgb(100, 150, 250);
-
-  max-width: 40em;
-  min-width: 40em;
-
-  max-height: 40em;
-  min-height: 40em;
-/*
-   max-width: 50em;
-   min-width: 50em;
-
-   max-height: 50em;
-   min-height: 50em;
-  padding: 0em;*/
-  /*margin-left: 1em;*/
-
-}
-
-
-
-/*this goes inside article-type1 to act as a shadow behind the divfor content*/
-/*.article1-div-shadow{
-
-  margin: 0em;
-
-
-  padding: 0em;
-  background: rgb(100, 200, 250);
-
-  max-width: 40em;
-  min-width: 40em;
-
-  max-height: 40em;
-  min-height: 40em;
-}*/
-
-.article1-div-content{/*this goes inside article-type1 to hold text*/
-
-  /*margin-left: 5em;*/
-  /*margin-top: 5em;*/
-
-  margin: 0em;
-
-  padding: 1em;
-  background: rgb(90, 140, 240);
-
-  max-width: 40em;
-  min-width: 40em;
-
-  max-height: 40em;
-  min-height: 40em;
-}
 
 
 /*.side-content*/
@@ -270,5 +259,12 @@ body {
   background: rgb(227, 93, 60);/*colour of surrounding container*/
   text-align: center;
 
-  
+
+}
+
+.footer-link-style{/*for styling the text in the footer*/
+  background: rgb(200, 93, 60);
+  /*text-align: center;*/
+  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
+  font-size: 1.5em;
 }
