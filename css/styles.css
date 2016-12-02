@@ -21,25 +21,139 @@ body {
 
 .index-title{
 
-  background: red;
+  background: rgb(160, 180, 230);
   text-align: center;
   /*text-transform: uppercase;*/
   font-size: 3.5em;
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
 }
 
+.article1-header{
+  background: rgb(180, 200, 255);
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
+  font-size: 3em;
+}
+.article2-header{/*for index page*/
+  background: rgb(255, 200, 180);
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
+  font-size: 3em;
+}
+.article3-header{/*for bio page*/
+  background: rgb(180, 255, 200);
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
+  font-size: 3em;
+}
+
+.sub-header{
+  background: rgb(180, 200, 255);
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
+  font-size: 2em;
+}
+
+.link-style{
+  background: rgb(180, 200, 255);
+  /*text-align: center;*/
+  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
+  font-size: 1.5em;
+}
+
 .index-header{
   flex: 0 1 auto;
 }
 
-.img1{
-  width: 40%;
 
+
+.img1{
+  width: 40em;
+  height: 30em;
   /*flex: 1 1 auto;
   flex*/
-  display: flex;
+ /*align-self: center;
+  /*flex-direction: row;
+  display: flex;*/
 
 }
+.row-display{
+  align-self: center;
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+/*type 2 for the index page*/
+.article-type2{/*this sets the background to go around the article*/
+
+  /*background: rgb(100, 200, 250);*/
+
+  margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
+
+  padding: 1em;
+  background: rgb(250, 150, 100);
+
+  max-width: 40em;
+  min-width: 40em;
+
+  max-height: 30em;
+  min-height: 30em;
+
+
+}
+.article2-div-content{/*this goes inside article-type1 to hold text*/
+
+  /*margin-left: 5em;*/
+  /*margin-top: 5em;*/
+
+  margin: 0em;
+
+  padding: 1em;
+  background: rgb(240, 140, 90);
+
+  max-width: 40em;
+  min-width: 40em;
+
+  max-height: 30em;
+  min-height: 30em;
+}
+
+/*type 3 for the bio page*/
+.article-type3{/*this sets the background to go around the article*/
+
+  /*background: rgb(100, 200, 250);*/
+
+  margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
+
+  padding: 1em;
+  background: rgb(100, 250, 140);
+
+  max-width: 60em;
+  min-width: 60em;
+
+  max-height: 30em;
+  min-height: 30em;
+
+
+}
+.article3-div-content{/*this goes inside article-type1 to hold text*/
+
+  /*margin-left: 5em;*/
+  /*margin-top: 5em;*/
+
+  margin: 0em;
+
+  padding: 1em;
+  background: rgb(60, 240, 140);
+
+  max-width: 60em;
+  min-width: 60em;
+
+  max-height: 30em;
+  min-height: 30em;
+}
+
+
 
 .nav{
   justify-content: space-between;
@@ -50,7 +164,7 @@ body {
 
   order: -1;/*puts navigation at the top of the screen*/
   padding: 1em;
-  background: rgb(255, 0, 0);
+  background: rgb(200, 230, 255);
   flex-direction: row;/*put naviagation points into a row across the screen*/
   display: flex;/*make display the values in flex*/
 }
@@ -59,8 +173,102 @@ body {
 
 }
 
+
+.article-type1{/*this sets the background to go around the article*/
+
+  /*background: rgb(100, 200, 250);*/
+
+  margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
+
+  padding: 1em;
+  background: rgb(100, 150, 250);
+
+  max-width: 40em;
+  min-width: 40em;
+
+  max-height: 40em;
+  min-height: 40em;
+/*
+   max-width: 50em;
+   min-width: 50em;
+
+   max-height: 50em;
+   min-height: 50em;
+  padding: 0em;*/
+  /*margin-left: 1em;*/
+
+}
+
+
+
+/*this goes inside article-type1 to act as a shadow behind the divfor content*/
+/*.article1-div-shadow{
+
+  margin: 0em;
+
+
+  padding: 0em;
+  background: rgb(100, 200, 250);
+
+  max-width: 40em;
+  min-width: 40em;
+
+  max-height: 40em;
+  min-height: 40em;
+}*/
+
+.article1-div-content{/*this goes inside article-type1 to hold text*/
+
+  /*margin-left: 5em;*/
+  /*margin-top: 5em;*/
+
+  margin: 0em;
+
+  padding: 1em;
+  background: rgb(90, 140, 240);
+
+  max-width: 40em;
+  min-width: 40em;
+
+  max-height: 40em;
+  min-height: 40em;
+}
+
+
+/*.side-content*/
+
+.side-content{/*this goes at the side of the screen*/
+
+  /*margin-left: 5em;*/
+  /*margin-top: 5em;*/
+
+  margin: 0em;
+
+  /*flex-direction: column;
+  flex-direction:
+  display: flex;*/
+
+
+
+  padding: 1em;
+  background: rgb(90, 140, 240);
+
+  max-width: 40em;
+  min-width: 40em;
+
+  max-height: 40em;
+  min-height: 40em;
+}
+
+
+
+
+
 .footer {
   padding: 0.5em;/*height of surrounding container*/
+  /*margin-bottom: 5em;/*leave gap at the bottom of the screen*/
   background: rgb(227, 93, 60);/*colour of surrounding container*/
-  text-align: center;;
+  text-align: center;
+
+  
 }
