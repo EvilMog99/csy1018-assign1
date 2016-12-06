@@ -9,7 +9,7 @@ Although each article and div ("div-content") where left with similar values for
 effect when being viewed. This was done to conform to the Google Material Design's rule about allow items on the screen having the same thickness, so
 as to make the page look neater.
 
-Next
+
 
 
     What was implemented incorrectly:
@@ -18,7 +18,7 @@ did not have this effect added. One of the reasons for this is that the shadowin
 as it would have put a distance of 1em betweent he side of the footer's/header's/head's content and the left hand side of the screen. For this reason I chose only to use
 the effect for large blocks of content held within the page.
 
-Next
+
 
 
 
