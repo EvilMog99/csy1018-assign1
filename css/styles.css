@@ -10,7 +10,7 @@ html, body {
 
 
 
-body {
+body {/*set out the body of the page*/
     display: flex;
     flex-direction: column;
 
@@ -54,18 +54,19 @@ body {
   font-size: 2em;
 }
 
-.link-style{/*for links at the top of the screen*/
+/*
+.link-style{/*for links at the top of the screen
   background: rgb(180, 200, 255);
-  /*text-align: center;*/
-  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
+  /*text-align: center;
+  font-family: 'Fira Sans', sans-serif;/*gets font type from Google
   font-size: 1.5em;
 }
-.sel-link-style{/*for links at the top of the screen which are for the current page*/
+.sel-link-style{/*for links at the top of the screen which are for the current page
   background: rgb(220, 220, 255);
-  /*text-align: center;*/
-  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
+  /*text-align: center;
+  font-family: 'Fira Sans', sans-serif;/*gets font type from Google
   font-size: 1.5em;
-}
+}*/
 
 
 .index-header{
@@ -90,29 +91,42 @@ body {
   display: flex;
 }
 
-/*to be used in general, but mainly in the cv page*/
+.img-icon{/*for the images being used as icons*/
+  width: 5em;
+  height: 5em;
+
+  padding: 0.5em;
+  background: rgb(180, 200, 255);
+
+}
+.img-icon-selected{/*for the images being used as icons which are on the selected page*/
+  width: 5em;
+  height: 5em;
+
+  padding: 0.5em;
+  background: rgb(180, 160, 255);
+
+}
+
+/*to be used in the cv page*/
 .article-type1{/*this sets the background to go around the article*/
 
   /*background: rgb(100, 200, 250);*/
 
-  margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
+  margin: 2em;/*make sure this doesn't collide with anything else on the screen*/
+
+  margin-bottom: 5em;/*give more space between the footer and these conent boxes*/
 
   padding: 1em;
   background: rgb(100, 150, 250);
 
-  max-width: 40em;
-  min-width: 40em;
+  max-width: 30em;/*thinner than other articles to fit more across the screen*/
+  min-width: 30em;
 
   max-height: 40em;
   min-height: 40em;
-/*
-   max-width: 50em;
-   min-width: 50em;
 
-   max-height: 50em;
-   min-height: 50em;
-  padding: 0em;*/
-  /*margin-left: 1em;*/
+
 
 }
 .article1-div-content{/*this goes inside article-type1 to hold text*/
@@ -125,12 +139,18 @@ body {
   padding: 1em;
   background: rgb(90, 140, 240);
 
-  max-width: 40em;
-  min-width: 40em;
+  max-width: 30em;
+  min-width: 30em;
 
   max-height: 40em;
   min-height: 40em;
 }
+.cv-articles-display{/*uses flex to display all of the contents in a row across the screen*/
+  flex-direction: row;/*display as a row*/
+  justify-content: center;/*display in the center of the screen*/
+  display: flex;/*use these commands*/
+}
+
 /*type 2 for the index page*/
 .article-type2{/*this sets the background to go around the article*/
 
@@ -149,7 +169,7 @@ body {
 
 
 }
-.article2-div-content{/*this goes inside article-type1 to hold text*/
+.article2-div-content{/*this goes inside article-type2 to hold text*/
 
   /*margin-left: 5em;*/
   /*margin-top: 5em;*/
@@ -184,7 +204,7 @@ body {
 
   align-self: center;/*put self at the middle of the screen*/
 }
-.article3-div-content{/*this goes inside article-type1 to hold text*/
+.article3-div-content{/*this goes inside article-type3 to hold text*/
 
   /*margin-left: 5em;*/
   /*margin-top: 5em;*/
@@ -203,6 +223,8 @@ body {
 
 
 
+
+
 .nav{
   justify-content: space-between;
   margin: 1em;
@@ -217,9 +239,7 @@ body {
   display: flex;/*make display the values in flex*/
 }
 
-.eachnav{
 
-}
 
 
 
