@@ -11,9 +11,9 @@ html, body {
 
 
 body {/*set out the body of the page*/
-    display: flex;
-    flex-direction: column;
 
+    flex-direction: column;
+    display: flex;
     /*font-size: 62.5%;*/
     background: rgb(149, 194, 215);
 }
@@ -108,6 +108,24 @@ body {/*set out the body of the page*/
 
 }
 
+.nav{
+  justify-content: space-between;
+
+  /*margin: 1em;*/
+  /*border: 1em;*/
+  /*white-space: nowrap;
+  overflow-x: auto;*/
+
+  max-height: 6em;
+  min-height: 6em;
+
+  order: -1;/*puts navigation at the top of the screen*/
+  padding: 1em;
+  background: rgb(200, 230, 255);
+  flex-direction: row;/*put naviagation points into a row across the screen*/
+  display: flex;/*make display the values in flex*/
+}
+
 /*to be used in the cv page*/
 .article-type1{/*this sets the background to go around the article*/
 
@@ -148,7 +166,11 @@ body {/*set out the body of the page*/
 .cv-articles-display{/*uses flex to display all of the contents in a row across the screen*/
   flex-direction: row;/*display as a row*/
   justify-content: center;/*display in the center of the screen*/
+  /*align-self: center;*/
   display: flex;/*use these commands*/
+
+  max-height: 49em;
+  min-height: 49em;
 }
 
 /*type 2 for the index page*/
@@ -225,19 +247,7 @@ body {/*set out the body of the page*/
 
 
 
-.nav{
-  justify-content: space-between;
-  margin: 1em;
 
-  /*white-space: nowrap;
-  overflow-x: auto;*/
-
-  order: -1;/*puts navigation at the top of the screen*/
-  padding: 1em;
-  background: rgb(200, 230, 255);
-  flex-direction: row;/*put naviagation points into a row across the screen*/
-  display: flex;/*make display the values in flex*/
-}
 
 
 
