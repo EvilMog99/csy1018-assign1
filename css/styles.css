@@ -165,11 +165,12 @@ body {/*set out the body of the page*/
 }
 .cv-articles-display{/*uses flex to display all of the contents in a row across the screen*/
   flex-direction: row;/*display as a row*/
-  justify-content: center;/*display in the center of the screen*/
+  justify-content: space-between;/*gives equal space between articles*/
+
   /*align-self: center;*/
   display: flex;/*use these commands*/
 
-  max-height: 49em;
+  /*max-height: 49em;*/
   min-height: 49em;
 }
 
@@ -340,4 +341,17 @@ body {/*set out the body of the page*/
 .form1{/*set form on contact page' content*/
   flex-direction: column;
   display: flex;
+
+  justify-content: center;/*put the form items in the centre*/
+}
+
+.input{/*input settings*/
+  /*max-width: */
+}
+
+@media (max-width: 30em) {
+  .cv-articles-display{
+    flex-direction: column;
+    display: flex;
+  }
 }
