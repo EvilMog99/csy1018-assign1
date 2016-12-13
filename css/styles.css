@@ -246,6 +246,43 @@ body {/*set out the body of the page*/
 
 
 
+/*type 4 for the contact page*/
+.article-type4{/*this sets the background to go around the article*/
+
+  /*background: rgb(100, 200, 250);*/
+
+  margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
+
+  padding: 1em;
+  background: rgb(120, 160, 240);
+
+  max-width: 60em;
+  min-width: 60em;
+
+  max-height: 30em;
+  min-height: 30em;
+
+  align-self: center;/*put self at the middle of the screen*/
+}
+.article4-div-content{/*this goes inside article-type3 to hold text*/
+
+  /*margin-left: 5em;*/
+  /*margin-top: 5em;*/
+
+  margin: 0em;
+
+  padding: 1em;
+  background: rgb(100, 140, 230);
+
+  max-width: 60em;
+  min-width: 60em;
+
+  max-height: 30em;
+  min-height: 30em;
+}
+
+
+
 
 
 
@@ -297,4 +334,10 @@ body {/*set out the body of the page*/
   /*text-align: center;*/
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
   font-size: 1.5em;
+}
+
+
+.form1{/*set form on contact page' content*/
+  flex-direction: column;
+  display: flex;
 }
