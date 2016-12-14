@@ -172,6 +172,7 @@ body {/*set out the body of the page*/
 
   /*max-height: 49em;*/
   min-height: 49em;
+
 }
 
 /*type 2 for the index page*/
@@ -349,9 +350,20 @@ body {/*set out the body of the page*/
   /*max-width: */
 }
 
-@media (max-width: 30em) {
+
+/*if width is greater than 30em*/
+/*@media (min-width: 50em) {
+  .cv-articles-display{
+    flex-direction: row;
+
+  }
+}*/
+
+/*if width is smaller than 30em*/
+@media (max-width: 50em) {
   .cv-articles-display{
     flex-direction: column;
-    display: flex;
+
+    min-height: 150em;/*pushes footer to bottom of the screen and allows the articles inbetween to resize themselves*/
   }
 }
