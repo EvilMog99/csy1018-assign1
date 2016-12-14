@@ -25,4 +25,4 @@ the effect for large blocks of content held within the page.
 People whom I have collaborated with:
 No one has been collaborated with in this project
 
-Hours spent completing assignment: 8
+Hours spent completing assignment: 12
