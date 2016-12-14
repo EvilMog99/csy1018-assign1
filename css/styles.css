@@ -12,10 +12,11 @@ html, body {
 
 body {/*set out the body of the page*/
 
-    flex-direction: column;
-    display: flex;
+    flex-direction: column;/*display everything in a column*/
+    display: flex;/*use the set flex commands*/
     /*font-size: 62.5%;*/
-    background: rgb(149, 194, 215);
+    background: rgb(149, 194, 215);/*set the background colour*/
+
 }
 
 
@@ -86,7 +87,7 @@ body {/*set out the body of the page*/
 
 }
 .row-display{
-  align-self: center;
+  justify-content: space-around;/*give equal space between articles*/
   flex-direction: row-reverse;
   display: flex;
 }
@@ -360,10 +361,112 @@ body {/*set out the body of the page*/
 }*/
 
 /*if width is smaller than 30em*/
-@media (max-width: 50em) {
+@media (max-width: 40em) {/*to resize the screen for mobile devices*/
+
+  /*for cv page*/
   .cv-articles-display{
-    flex-direction: column;
+    flex-direction: column;/*puts articles into a column*/
 
     min-height: 150em;/*pushes footer to bottom of the screen and allows the articles inbetween to resize themselves*/
+
   }
+
+  .row-display{
+    flex-direction: column;/*reset articles to be displayed in a column*/
+
+    min-height: 84em;/*push footer to the bottom of the page*/
+
+  }
+
+  /*reset article and div to fit in the screen*/
+  .article-type2{
+    margin: 0.5em;
+
+    /*reset width to fit onto the screen*/
+    min-width: 30em;
+    max-width: 30em;
+
+  }
+  .article2-div-content{
+
+    /*reset width to fit onto the screen*/
+    min-width: 30em;
+    max-width: 30em;
+
+  }
+  .img1{
+    width: 30em;/*resize the image's width so it fits on =to the screen*/
+  }
+
+
+  /*for index*/
+  /*reset article and div to fit in the screen*/
+  .article-type1{
+    margin: 0.5em;
+
+    /*reset width to fit onto the screen*/
+    min-width: 30em;
+    max-width: 30em;
+
+  }
+  .article1-div-content{
+
+    /*reset width to fit onto the screen*/
+    min-width: 30em;
+    max-width: 30em;
+
+  }
+
+  /*for bio page*/
+  /*reset article and div to fit in the screen*/
+  .article-type3{
+    margin: 0.5em;
+
+    /*reset width to fit onto the screen*/
+    min-width: 30em;
+    max-width: 30em;
+
+    /*reset height to fit all of the text onto the page*/
+    min-height: 50em;
+    max-height: 50em;
+
+    margin-bottom: 3.8em;/*to push footer down and leave a gap for good visual appearance*/
+
+  }
+  .article3-div-content{
+
+
+    /*reset width to fit onto the screen*/
+    min-width: 30em;
+    max-width: 30em;
+
+    /*reset height to fit all of the text onto the page*/
+    min-height: 50em;
+    max-height: 50em;
+
+  }
+
+
+  /*for contact me page*/
+  /*reset article and div to fit in the screen*/
+  .article-type4{
+    margin: 0.5em;
+
+    /*reset width to fit onto the screen*/
+    min-width: 30em;
+    max-width: 30em;
+
+    margin-bottom: 3.8em;/*to push footer down and leave a gap for good visual appearance*/
+
+  }
+  .article4-div-content{
+
+    /*reset width to fit onto the screen*/
+    min-width: 30em;
+    max-width: 30em;
+
+  }
+
+
+
 }
