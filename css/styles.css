@@ -107,6 +107,7 @@ body {/*set out the body of the page*/
   padding: 0.5em;
   background: rgb(180, 160, 255);
 
+  animation: change-selection-col 2s linear infinite;/*run animation to change the colour of the background*/
 }
 
 .nav{
@@ -476,6 +477,20 @@ body {/*set out the body of the page*/
 
   }
 
+}
 
 
+@keyframes change-selection-col {/*changes colour of selected outline for link icon of current page*/
+
+  0%{/*at start of animation*/
+    background: rgb(180, 160, 255);/*make background red*/
+  }
+
+  50%{/*at middle of animation*/
+    background: rgb(0, 100, 200);/*make background blue*/
+  }
+
+  100%{/*at end and reset of animation*/
+    background: rgb(180, 160, 255);/*make background red again*/
+  }
 }
