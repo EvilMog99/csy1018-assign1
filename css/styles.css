@@ -107,7 +107,7 @@ body {/*set out the body of the page*/
   padding: 0.5em;
   background: rgb(180, 160, 255);
 
-  animation: change-selection-col 2s linear infinite;/*run animation to change the colour of the background*/
+  animation: change-selection-col 4s linear infinite;/*run animation to change the colour of the background*/
 }
 
 .nav{
