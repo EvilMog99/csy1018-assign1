@@ -27,14 +27,22 @@
       <div class="article4-div-content">
 
         <form class="form1" action="contact.html" method="post"><!-- -->
-          <label for="input_id" type="email">Enter your Email here </label>
-          <input id="input_id"></input>
 
+          <p>Contact me at chris@maily.co.uk or use the input boxes below.</p><!--to display text and email address-->
 
-          <label for="ta_id" type="email">Write message here </label>
+          <label for="input_name" type="text">Enter your name here</label>
+          <input id="input_name"><!--for the sender's name-->
 
-          <textarea row="4" col="25" id="ta_id"></textarea>
+          <label for="input_id" type="email">Enter your Email address here</label>
+          <input id="input_id"><!--for the sender's email so a return email can be sent-->
 
+          <label for="input_sub" type="text">Enter the subject here</label>
+          <input id="input_sub"><!--for the subject of the email-->
+
+          <label for="ta_id" type="email">Write your message here</label>
+          <textarea row="4" id="ta_id"></textarea><!--for the email to be entered-->
+
+          <button>Send Email</button><!--for the email to be sent when it's ready-->
 
         </form>
 

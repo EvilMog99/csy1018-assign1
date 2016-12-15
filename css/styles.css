@@ -107,7 +107,7 @@ body {/*set out the body of the page*/
   padding: 0.5em;
   background: rgb(180, 160, 255);
 
-  animation: change-selection-col 4s linear infinite;/*run animation to change the colour of the background*/
+  animation: change-selection-col 3s linear infinite;/*run animation to change the colour of the background*/
 }
 
 .nav{
@@ -478,6 +478,12 @@ body {/*set out the body of the page*/
   }
 
 }
+
+
+/*.txt-area1{/*to stop the "Send" button from going off the screen*/
+  /*max-height: 10em;
+  max-width: 10em;
+}*/
 
 
 @keyframes change-selection-col {/*changes colour of selected outline for link icon of current page*/
