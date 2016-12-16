@@ -364,7 +364,7 @@ body {/*set out the body of the page*/
 }*/
 
 /*if width is smaller than 30em*/
-@media (max-width: 40em) {/*to resize the screen for mobile devices*/
+@media (max-width: 60em) {/*to resize the screen for mobile devices*/
 
   /*for cv page*/
   .cv-articles-display{
