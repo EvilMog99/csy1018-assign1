@@ -15,7 +15,7 @@ body {/*set out the body of the page*/
     flex-direction: column;/*display everything in a column*/
     display: flex;/*use the set flex commands*/
     /*font-size: 62.5%;*/
-    background: rgb(149, 194, 215);/*set the background colour*/
+    background: rgb(149, 194, 255);/*set the background colour*/
 
 }
 
