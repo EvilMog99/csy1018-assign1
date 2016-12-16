@@ -86,10 +86,12 @@ body {/*set out the body of the page*/
   display: flex;*/
 
 }
-.row-display{
+.row-display{/*used to centre article held on the page*/
   justify-content: space-around;/*give equal space between articles*/
-  flex-direction: row-reverse;
+  flex-direction: row;
   display: flex;
+
+  min-height: 50em;/*push footer to the bottom of the page*/
 }
 
 .img-icon{/*for the images being used as icons*/
@@ -187,11 +189,11 @@ body {/*set out the body of the page*/
   padding: 1em;
   background: rgb(250, 150, 100);
 
-  max-width: 35em;
-  min-width: 35em;
+  max-width: 35em;/*get a roughly equal boarder*/
+  min-width: 35em;/*get a roughly equal boarder*/
 
-  max-height: 30em;
-  min-height: 30em;
+  max-height: 38.6em;/*get a roughly equal boarder*/
+  min-height: 38.6em;/*get a roughly equal boarder*/
 
 
 }
@@ -205,11 +207,11 @@ body {/*set out the body of the page*/
   padding: 1em;
   background: rgb(240, 140, 90);
 
-  max-width: 35em;
-  min-width: 35em;
+  max-width: 35em;/*get a roughly equal boarder*/
+  min-width: 35em;/*get a roughly equal boarder*/
 
-  max-height: 30em;
-  min-height: 30em;
+  max-height: 38.6em;/*get a roughly equal boarder*/
+  min-height: 38.6em;/*get a roughly equal boarder*/
 }
 
 /*type 3 for the bio page*/
@@ -373,9 +375,9 @@ body {/*set out the body of the page*/
   }
 
   .row-display{
-    flex-direction: column;/*reset articles to be displayed in a column*/
+    /*keep as row because there is only one article inside and the row display will centre it better*/
 
-    min-height: 84em;/*push footer to the bottom of the page*/
+    min-height: 40em;/*push footer to the bottom of the page*/
 
   }
 
@@ -388,8 +390,8 @@ body {/*set out the body of the page*/
     max-width: 30em;
 
     /*reset height to fit around image*/
-    min-height: 25em;
-    max-height: 25em;
+    max-height: 33.6em;/*get a roughly equal boarder*/
+    min-height: 33.6em;/*get a roughly equal boarder*/
 
   }
   .article2-div-content{
@@ -399,8 +401,8 @@ body {/*set out the body of the page*/
     max-width: 30em;
 
     /*reset height to fit around image*/
-    min-height: 25em;
-    max-height: 25em;
+    max-height: 33.6em;/*get a roughly equal boarder*/
+    min-height: 33.6em;/*get a roughly equal boarder*/
 
   }
   .img1{
