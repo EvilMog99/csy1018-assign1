@@ -29,30 +29,34 @@ body {/*set out the body of the page*/
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
 }
 
-.article1-header{
+.article1-header{/*for cv page headers*/
   background: rgb(180, 200, 255);
   text-align: center;
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
   font-size: 3em;
+  padding: 0em;
 }
 .article2-header{/*for index page*/
   background: rgb(255, 200, 180);
   text-align: center;
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
   font-size: 3em;
+  padding: 0em;
 }
 .article3-header{/*for bio page*/
   background: rgb(180, 255, 200);
   text-align: center;
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
   font-size: 3em;
+  padding: 0em;
 }
 
-.sub-header{
+.sub-header{/*for cv page sub headers*/
   background: rgb(180, 200, 255);
   text-align: center;
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
   font-size: 2em;
+  padding: 0em;
 }
 
 /*
