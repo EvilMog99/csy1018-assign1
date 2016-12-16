@@ -370,8 +370,11 @@ body {/*set out the body of the page*/
   .cv-articles-display{
     flex-direction: column;/*puts articles into a column*/
 
-    min-height: 150em;/*pushes footer to bottom of the screen and allows the articles inbetween to resize themselves*/
+    min-height: 145em;/*pushes footer to bottom of the screen and allows the articles inbetween to resize themselves*/
 
+    justify-content: space-around;/*leave space between each article and the footer*/
+
+    margin-bottom: 3.5em;/*push footer further down*/
   }
 
   .row-display{
