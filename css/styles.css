@@ -15,44 +15,31 @@ body {/*set out the body of the page*/
     flex-direction: column;/*display everything in a column*/
     display: flex;/*use the set flex commands*/
     /*font-size: 62.5%;*/
-    background: rgb(149, 194, 255);/*set the background colour*/
+    background: rgb(0, 0, 0);/*set the background colour*/
 
 }
 
 
-.index-title{
+.all-title{
 
-  background: rgb(160, 180, 230);
+  background: rgb(180, 200, 255);/*light blue background*/
   text-align: center;
   /*text-transform: uppercase;*/
   font-size: 3.5em;
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
 }
 
-.article1-header{/*for cv page headers*/
-  background: rgb(180, 200, 255);
-  text-align: center;
-  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
-  font-size: 3em;
-  padding: 0em;
-}
-.article2-header{/*for index page*/
-  background: rgb(255, 200, 180);
-  text-align: center;
-  font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
-  font-size: 3em;
-  padding: 0em;
-}
-.article3-header{/*for bio page*/
-  background: rgb(180, 255, 200);
+.all-article-header{/*for all pages' headers*/
+  background: rgb(180, 200, 255);/*light blue background*/
   text-align: center;
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
   font-size: 3em;
   padding: 0em;
 }
 
+
 .sub-header{/*for cv page sub headers*/
-  background: rgb(180, 200, 255);
+  background: rgb(180, 200, 255);/*light blue background*/
   text-align: center;
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
   font-size: 2em;
@@ -74,7 +61,7 @@ body {/*set out the body of the page*/
 }*/
 
 
-.index-header{
+.all-header{
   flex: 0 1 auto;
 }
 
@@ -111,7 +98,7 @@ body {/*set out the body of the page*/
   height: 5em;
 
   padding: 0.5em;
-  background: rgb(180, 160, 255);
+  background: rgb(180, 160, 255);/*colour is more purple to highlight this icon better*/
 
   animation: change-selection-col 3s linear infinite;/*run animation to change the colour of the background*/
 }
@@ -129,7 +116,7 @@ body {/*set out the body of the page*/
 
   order: -1;/*puts navigation at the top of the screen*/
   padding: 1em;
-  background: rgb(200, 230, 255);
+  background: rgb(100, 150, 250);/*blue to show icons well*/
   flex-direction: row;/*put naviagation points into a row across the screen*/
   display: flex;/*make display the values in flex*/
 }
@@ -144,10 +131,10 @@ body {/*set out the body of the page*/
   margin-bottom: 5em;/*give more space between the footer and these conent boxes*/
 
   padding: 1em;
-  background: rgb(100, 150, 250);
+  background: rgb(90, 140, 240);/*darker blue, to give a 3D shadow effect*/
 
-  max-width: 30em;/*thinner than other articles to fit more across the screen*/
-  min-width: 30em;
+  max-width: 25em;/*thinner than other articles to fit more across the screen*/
+  min-width: 25em;
 
   max-height: 40em;
   min-height: 40em;
@@ -163,10 +150,10 @@ body {/*set out the body of the page*/
   margin: 0em;
 
   padding: 1em;
-  background: rgb(90, 140, 240);
+  background: rgb(100, 150, 250);/*blue to show text well*/
 
-  max-width: 30em;
-  min-width: 30em;
+  max-width: 25em;
+  min-width: 25em;
 
   max-height: 40em;
   min-height: 40em;
@@ -191,7 +178,7 @@ body {/*set out the body of the page*/
   margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
 
   padding: 1em;
-  background: rgb(250, 150, 100);
+  background: rgb(90, 140, 240);/*darker blue, to give a 3D shadow effect*/
 
   max-width: 35em;/*get a roughly equal boarder*/
   min-width: 35em;/*get a roughly equal boarder*/
@@ -209,7 +196,7 @@ body {/*set out the body of the page*/
   margin: 0em;
 
   padding: 1em;
-  background: rgb(240, 140, 90);
+  background: rgb(100, 150, 250);/*blue to show text well*/
 
   max-width: 35em;/*get a roughly equal boarder*/
   min-width: 35em;/*get a roughly equal boarder*/
@@ -226,7 +213,7 @@ body {/*set out the body of the page*/
   margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
 
   padding: 1em;
-  background: rgb(100, 250, 140);
+  background: rgb(90, 140, 240);/*darker blue, to give a 3D shadow effect*/
 
   max-width: 60em;
   min-width: 60em;
@@ -244,7 +231,7 @@ body {/*set out the body of the page*/
   margin: 0em;
 
   padding: 1em;
-  background: rgb(60, 240, 140);
+  background: rgb(100, 150, 250);/*blue to show text well*/
 
   max-width: 60em;
   min-width: 60em;
@@ -264,7 +251,7 @@ body {/*set out the body of the page*/
   margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
 
   padding: 1em;
-  background: rgb(120, 160, 240);
+  background: rgb(90, 140, 240);/*darker blue, to give a 3D shadow effect*/
 
   max-width: 60em;
   min-width: 60em;
@@ -282,7 +269,7 @@ body {/*set out the body of the page*/
   margin: 0em;
 
   padding: 1em;
-  background: rgb(100, 140, 230);
+  background: rgb(100, 150, 250);/*blue to show text well*/
 
   max-width: 60em;
   min-width: 60em;
@@ -301,30 +288,7 @@ body {/*set out the body of the page*/
 
 
 
-/*.side-content*/
 
-.side-content{/*this goes at the side of the screen*/
-
-  /*margin-left: 5em;*/
-  /*margin-top: 5em;*/
-
-  margin: 0em;
-
-  /*flex-direction: column;
-  flex-direction:
-  display: flex;*/
-
-
-
-  padding: 1em;
-  background: rgb(90, 140, 240);
-
-  max-width: 40em;
-  min-width: 40em;
-
-  max-height: 40em;
-  min-height: 40em;
-}
 
 
 
@@ -333,14 +297,14 @@ body {/*set out the body of the page*/
 .footer {
   padding: 0.5em;/*height of surrounding container*/
   /*margin-bottom: 5em;/*leave gap at the bottom of the screen*/
-  background: rgb(227, 93, 60);/*colour of surrounding container*/
+  background: rgb(90, 140, 240);/*blue background colour for surrounding container*/
   text-align: center;
 
 
 }
 
 .footer-link-style{/*for styling the text in the footer*/
-  background: rgb(200, 93, 60);
+  background: rgb(90, 140, 240);/*blue background colour of text*/
   /*text-align: center;*/
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
   font-size: 1.5em;
@@ -368,7 +332,7 @@ body {/*set out the body of the page*/
 }*/
 
 /*if width is smaller than 30em*/
-@media (max-width: 80em) {/*to resize the screen for mobile devices*/
+@media (max-width: 60em) {/*to resize the screen for mobile devices*/
 
   /*for cv page*/
   .cv-articles-display{
