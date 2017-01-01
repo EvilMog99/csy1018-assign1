@@ -143,8 +143,8 @@ body {/*set out the body of the page*/
   max-width: 25em;/*thinner than other articles to fit more across the screen*/
   min-width: 25em;
 
-  max-height: 40em;
-  min-height: 40em;
+  max-height: 78em;
+  min-height: 78em;
 
 
 
@@ -162,8 +162,8 @@ body {/*set out the body of the page*/
   max-width: 25em;
   min-width: 25em;
 
-  max-height: 40em;
-  min-height: 40em;
+  max-height: 78em;
+  min-height: 78em;
 }
 .cv-articles-display{/*uses flex to display all of the contents in a row across the screen*/
   flex-direction: row;/*display as a row*/
@@ -173,7 +173,7 @@ body {/*set out the body of the page*/
   display: flex;/*use these commands*/
 
   /*max-height: 49em;*/
-  min-height: 49em;
+  min-height: 87em;
 
 }
 
