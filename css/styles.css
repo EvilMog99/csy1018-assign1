@@ -19,6 +19,13 @@ body {/*set out the body of the page*/
 
 }
 
+.text-class{/*set text size in paragraphs*/
+  font-size: 1.5em;
+  font-family: serif;/*keeps font type similar to the type from Google for the headers*/
+
+  /*text is much smaller*/
+}
+
 
 .all-title{
 
@@ -460,7 +467,7 @@ body {/*set out the body of the page*/
 @keyframes change-selection-col {/*changes colour of selected outline for link icon of current page*/
 
   0%{/*at start of animation*/
-    background: rgb(180, 160, 255);/*make background red*/
+    background: rgb(180, 160, 255);/*make background purple*/
   }
 
   50%{/*at middle of animation*/
@@ -468,6 +475,6 @@ body {/*set out the body of the page*/
   }
 
   100%{/*at end and reset of animation*/
-    background: rgb(180, 160, 255);/*make background red again*/
+    background: rgb(180, 160, 255);/*make background purple again*/
   }
 }
