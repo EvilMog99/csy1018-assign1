@@ -55,7 +55,7 @@ content.
 People whom I have collaborated with:
 No one has been collaborated with in this project
 
-Hours spent completing assignment: 22
+Hours spent completing assignment: 25
 
 References:
 [1] https://material.io/guidelines/#introduction-principles - for layout principles and ideas (such as the articles on the cv page).

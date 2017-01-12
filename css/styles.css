@@ -189,7 +189,7 @@ body {/*set out the body of the page*/
 
 /*type 3 for the bio page*/
 .article-type3{/*this sets the background to go around the article*/
-
+  /*can't get this centred with other div and justify content*/
 
   margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
 
@@ -226,7 +226,7 @@ body {/*set out the body of the page*/
 
 /*type 4 for the contact page*/
 .article-type4{/*this sets the background to go around the article*/
-
+  /*can't get this centred with other div and justify content*/
 
   margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
 
@@ -250,7 +250,7 @@ body {/*set out the body of the page*/
   padding: 1em;
   background: rgb(100, 150, 250);/*blue to show text well*/
 
-/*set widthad height*/
+/*set width and height*/
   max-width: 60em;
   min-width: 60em;
 
@@ -271,7 +271,6 @@ body {/*set out the body of the page*/
 
 .footer-link-style{/*for styling the text in the footer*/
   background: rgb(90, 140, 240);/*blue background colour of text*/
-  /*text-align: center;*/
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
   font-size: 1.5em;
 }
@@ -359,6 +358,8 @@ body {/*set out the body of the page*/
     max-height: 70em;
   }
 
+
+
   /*for bio page*/
   /*reset article and div to fit in the screen*/
   .article-type3{/*For bio articles*/
@@ -393,6 +394,7 @@ body {/*set out the body of the page*/
   /*reset article and div to fit in the screen*/
   .article-type4{/*For contact articles*/
     margin: 0.5em;
+
 
     /*reset width to fit onto the screen*/
     min-width: 30em;
