@@ -345,7 +345,7 @@ body {/*set out the body of the page*/
   .cv-articles-display{
     flex-direction: column;/*puts articles into a column*/
 
-    min-height: 145em;/*pushes footer to bottom of the screen and allows the articles inbetween to resize themselves*/
+    min-height: 225em;/*pushes footer to bottom of the screen and allows the articles inbetween to resize themselves*/
 
     margin-bottom: 3.5em;/*push footer further down*/
   }
@@ -358,7 +358,7 @@ body {/*set out the body of the page*/
   }
 
   /*reset article and div to fit in the screen*/
-  .article-type2{
+  .article-type2{/*For index articles*/
     margin: 0.5em;
 
     /*reset width to fit onto the screen*/
@@ -370,7 +370,7 @@ body {/*set out the body of the page*/
     min-height: 33.6em;/*get a roughly equal boarder*/
 
   }
-  .article2-div-content{
+  .article2-div-content{/*For index articles' content*/
 
     /*reset width to fit onto the screen*/
     min-width: 30em;
@@ -389,25 +389,29 @@ body {/*set out the body of the page*/
 
   /*for index*/
   /*reset article and div to fit in the screen*/
-  .article-type1{
+  .article-type1{/*For cv articles*/
     margin: 0.5em;
 
     /*reset width to fit onto the screen*/
     min-width: 30em;
     max-width: 30em;
 
+    min-height: 70em;
+    max-height: 70em;
   }
-  .article1-div-content{
+  .article1-div-content{/*For cv articles' content*/
 
     /*reset width to fit onto the screen*/
     min-width: 30em;
     max-width: 30em;
 
+    min-height: 70em;
+    max-height: 70em;
   }
 
   /*for bio page*/
   /*reset article and div to fit in the screen*/
-  .article-type3{
+  .article-type3{/*For bio articles*/
     margin: 0.5em;
 
     /*reset width to fit onto the screen*/
@@ -421,7 +425,7 @@ body {/*set out the body of the page*/
     margin-bottom: 3.8em;/*to push footer down and leave a gap for good visual appearance*/
 
   }
-  .article3-div-content{
+  .article3-div-content{/*For bio articles' content*/
 
 
     /*reset width to fit onto the screen*/
@@ -437,7 +441,7 @@ body {/*set out the body of the page*/
 
   /*for contact me page*/
   /*reset article and div to fit in the screen*/
-  .article-type4{
+  .article-type4{/*For contact articles*/
     margin: 0.5em;
 
     /*reset width to fit onto the screen*/
@@ -447,7 +451,7 @@ body {/*set out the body of the page*/
     margin-bottom: 3.8em;/*to push footer down and leave a gap for good visual appearance*/
 
   }
-  .article4-div-content{
+  .article4-div-content{/*For contact articles' content*/
 
     /*reset width to fit onto the screen*/
     min-width: 30em;
