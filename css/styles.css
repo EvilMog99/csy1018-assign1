@@ -14,16 +14,15 @@ body {/*set out the body of the page*/
 
     flex-direction: column;/*display everything in a column*/
     display: flex;/*use the set flex commands*/
-    /*font-size: 62.5%;*/
     background: rgb(0, 0, 0);/*set the background colour*/
 
 }
 
 .text-class{/*set text size in paragraphs*/
+
+  /*make text much smaller than headers*/
   font-size: 1.5em;
   font-family: serif;/*keeps font type similar to the type from Google for the headers*/
-
-  /*text is much smaller*/
 }
 
 
@@ -31,7 +30,6 @@ body {/*set out the body of the page*/
 
   background: rgb(180, 200, 255);/*light blue background*/
   text-align: center;
-  /*text-transform: uppercase;*/
   font-size: 3.5em;
   font-family: 'Fira Sans', sans-serif;/*gets font type from Google*/
 }
@@ -53,19 +51,6 @@ body {/*set out the body of the page*/
   padding: 0em;
 }
 
-/*
-.link-style{/*for links at the top of the screen
-  background: rgb(180, 200, 255);
-  /*text-align: center;
-  font-family: 'Fira Sans', sans-serif;/*gets font type from Google
-  font-size: 1.5em;
-}
-.sel-link-style{/*for links at the top of the screen which are for the current page
-  background: rgb(220, 220, 255);
-  /*text-align: center;
-  font-family: 'Fira Sans', sans-serif;/*gets font type from Google
-  font-size: 1.5em;
-}*/
 
 
 .all-header{
@@ -77,11 +62,6 @@ body {/*set out the body of the page*/
 .img1{
   width: 35em;
   height: 30em;
-  /*flex: 1 1 auto;
-  flex*/
- /*align-self: center;
-  /*flex-direction: row;
-  display: flex;*/
 
 }
 .row-display{/*used to centre article held on the page*/
@@ -93,6 +73,7 @@ body {/*set out the body of the page*/
 }
 
 .img-icon{/*for the images being used as icons*/
+  /*set width and height*/
   width: 5em;
   height: 5em;
 
@@ -101,6 +82,7 @@ body {/*set out the body of the page*/
 
 }
 .img-icon-selected{/*for the images being used as icons which are on the selected page*/
+  /*set width and height*/
   width: 5em;
   height: 5em;
 
@@ -113,11 +95,7 @@ body {/*set out the body of the page*/
 .nav{
   justify-content: space-between;
 
-  /*margin: 1em;*/
-  /*border: 1em;*/
-  /*white-space: nowrap;
-  overflow-x: auto;*/
-
+/*set width and height*/
   max-height: 6em;
   min-height: 6em;
 
@@ -131,7 +109,6 @@ body {/*set out the body of the page*/
 /*to be used in the cv page*/
 .article-type1{/*this sets the background to go around the article*/
 
-  /*background: rgb(100, 200, 250);*/
 
   margin: 2em;/*make sure this doesn't collide with anything else on the screen*/
 
@@ -140,6 +117,7 @@ body {/*set out the body of the page*/
   padding: 1em;
   background: rgb(90, 140, 240);/*darker blue, to give a 3D shadow effect*/
 
+/*set width and height*/
   max-width: 25em;/*thinner than other articles to fit more across the screen*/
   min-width: 25em;
 
@@ -151,14 +129,13 @@ body {/*set out the body of the page*/
 }
 .article1-div-content{/*this goes inside article-type1 to hold text*/
 
-  /*margin-left: 5em;*/
-  /*margin-top: 5em;*/
 
   margin: 0em;
 
   padding: 1em;
   background: rgb(100, 150, 250);/*blue to show text well*/
 
+/*set width and height*/
   max-width: 25em;
   min-width: 25em;
 
@@ -169,7 +146,6 @@ body {/*set out the body of the page*/
   flex-direction: row;/*display as a row*/
   justify-content: space-between;/*gives equal space between articles*/
 
-  /*align-self: center;*/
   display: flex;/*use these commands*/
 
   /*max-height: 49em;*/
@@ -180,13 +156,13 @@ body {/*set out the body of the page*/
 /*type 2 for the index page*/
 .article-type2{/*this sets the background to go around the article*/
 
-  /*background: rgb(100, 200, 250);*/
 
   margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
 
   padding: 1em;
   background: rgb(90, 140, 240);/*darker blue, to give a 3D shadow effect*/
 
+/*set width and height*/
   max-width: 35em;/*get a roughly equal boarder*/
   min-width: 35em;/*get a roughly equal boarder*/
 
@@ -197,14 +173,13 @@ body {/*set out the body of the page*/
 }
 .article2-div-content{/*this goes inside article-type2 to hold text*/
 
-  /*margin-left: 5em;*/
-  /*margin-top: 5em;*/
 
   margin: 0em;
 
   padding: 1em;
   background: rgb(100, 150, 250);/*blue to show text well*/
 
+/*set width and height*/
   max-width: 35em;/*get a roughly equal boarder*/
   min-width: 35em;/*get a roughly equal boarder*/
 
@@ -215,13 +190,13 @@ body {/*set out the body of the page*/
 /*type 3 for the bio page*/
 .article-type3{/*this sets the background to go around the article*/
 
-  /*background: rgb(100, 200, 250);*/
 
   margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
 
   padding: 1em;
   background: rgb(90, 140, 240);/*darker blue, to give a 3D shadow effect*/
 
+/*set width and height*/
   max-width: 60em;
   min-width: 60em;
 
@@ -232,14 +207,13 @@ body {/*set out the body of the page*/
 }
 .article3-div-content{/*this goes inside article-type3 to hold text*/
 
-  /*margin-left: 5em;*/
-  /*margin-top: 5em;*/
 
   margin: 0em;
 
   padding: 1em;
   background: rgb(100, 150, 250);/*blue to show text well*/
 
+/*set width and height*/
   max-width: 60em;
   min-width: 60em;
 
@@ -253,13 +227,13 @@ body {/*set out the body of the page*/
 /*type 4 for the contact page*/
 .article-type4{/*this sets the background to go around the article*/
 
-  /*background: rgb(100, 200, 250);*/
 
   margin: 5em;/*make sure this doesn't collide with anything else on the screen*/
 
   padding: 1em;
   background: rgb(90, 140, 240);/*darker blue, to give a 3D shadow effect*/
 
+ /*set width and height*/
   max-width: 60em;
   min-width: 60em;
 
@@ -270,14 +244,13 @@ body {/*set out the body of the page*/
 }
 .article4-div-content{/*this goes inside article-type3 to hold text*/
 
-  /*margin-left: 5em;*/
-  /*margin-top: 5em;*/
 
   margin: 0em;
 
   padding: 1em;
   background: rgb(100, 150, 250);/*blue to show text well*/
 
+/*set widthad height*/
   max-width: 60em;
   min-width: 60em;
 
@@ -288,22 +261,8 @@ body {/*set out the body of the page*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
   padding: 0.5em;/*height of surrounding container*/
-  /*margin-bottom: 5em;/*leave gap at the bottom of the screen*/
   background: rgb(90, 140, 240);/*blue background colour for surrounding container*/
   text-align: center;
 
@@ -325,20 +284,11 @@ body {/*set out the body of the page*/
   justify-content: center;/*put the form items in the centre*/
 }
 
-.input{/*input settings*/
-  /*max-width: */
-}
 
 
-/*if width is greater than 30em*/
-/*@media (min-width: 50em) {
-  .cv-articles-display{
-    flex-direction: row;
 
-  }
-}*/
 
-/*if width is smaller than 30em*/
+/*if width is smaller than 60em*/
 @media (max-width: 60em) {/*to resize the screen for mobile devices*/
 
   /*for cv page*/
@@ -461,11 +411,6 @@ body {/*set out the body of the page*/
 
 }
 
-
-/*.txt-area1{/*to stop the "Send" button from going off the screen*/
-  /*max-height: 10em;
-  max-width: 10em;
-}*/
 
 
 @keyframes change-selection-col {/*changes colour of selected outline for link icon of current page*/
