@@ -26,7 +26,7 @@ body {/*set out the body of the page*/
 }
 
 
-.all-title{
+.all-title{/*set text type, size, position and background for any all-title text*/
 
   background: rgb(180, 200, 255);/*light blue background*/
   text-align: center;
