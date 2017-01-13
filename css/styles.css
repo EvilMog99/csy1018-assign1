@@ -1,8 +1,8 @@
 
 
 
-html, body {
-  height: 100%;
+html, body {/*set values for html, body*/
+  height: 100%;/*set height to 100%*/
 }
 
 
@@ -53,13 +53,8 @@ body {/*set out the body of the page*/
 
 
 
-.all-header{
-  flex: 0 1 auto;
-}
 
-
-
-.img1{
+.img1{/*set wdith and height for image - profile picture*/
   width: 35em;
   height: 30em;
 
@@ -78,7 +73,7 @@ body {/*set out the body of the page*/
   height: 5em;
 
   padding: 0.5em;
-  background: rgb(180, 200, 255);
+  background: rgb(180, 200, 255);/*set colour for area around the icon*/
 
 }
 .img-icon-selected{/*for the images being used as icons which are on the selected page*/
@@ -277,7 +272,7 @@ body {/*set out the body of the page*/
 
 
 .form1{/*set form on contact page' content*/
-  flex-direction: column;
+  flex-direction: column;/*display elements in one column*/
   display: flex;
 
   justify-content: center;/*put the form items in the centre*/
@@ -294,6 +289,8 @@ body {/*set out the body of the page*/
   .cv-articles-display{
     flex-direction: column;/*puts articles into a column*/
 
+    margin: 2em;/*increase to make space above this element - to make content look more balanced*/
+
     min-height: 225em;/*pushes footer to bottom of the screen and allows the articles inbetween to resize themselves*/
 
     margin-bottom: 3.5em;/*push footer further down*/
@@ -308,7 +305,9 @@ body {/*set out the body of the page*/
 
   /*reset article and div to fit in the screen*/
   .article-type2{/*For index articles*/
-    margin: 0.5em;
+    margin: 2em;/*increase to make space above this element - to make content look more balanced*/
+
+    margin-bottom: 3.8em;/*to push footer down and leave a gap for good visual appearance*/
 
     /*reset width to fit onto the screen*/
     min-width: 30em;
@@ -363,7 +362,7 @@ body {/*set out the body of the page*/
   /*for bio page*/
   /*reset article and div to fit in the screen*/
   .article-type3{/*For bio articles*/
-    margin: 0.5em;
+    margin: 2em;/*increase to make space above this element - to make content look more balanced*/
 
     /*reset width to fit onto the screen*/
     min-width: 30em;
@@ -395,12 +394,11 @@ body {/*set out the body of the page*/
   .article-type4{/*For contact articles*/
     margin: 0.5em;
 
-
     /*reset width to fit onto the screen*/
     min-width: 30em;
     max-width: 30em;
 
-    margin-bottom: 3.8em;/*to push footer down and leave a gap for good visual appearance*/
+    margin-bottom: 1.4em;/*to push footer down and leave a gap for good visual appearance*/
 
   }
   .article4-div-content{/*For contact articles' content*/

@@ -1,5 +1,5 @@
-<!DOCTYPE html5>
-<html5>
+<!DOCTYPE html5><!--set doctype to html5-->
+<html5><!--set type of html tag to html5-->
   <head>
     <meta charset="utf-8">
     <title>Contact info</title><!--Set title for page-->
@@ -23,34 +23,40 @@
     </nav>
 
 
-    <article class="article-type4"><!--Display this article to give a shadow effet for the div it contains-->
-      <div class="article4-div-content"><!--Used to show content in this page-->
+    <div class="row-display"><!--to display the article below in the centre of the screen-->
 
-        <h2 class="all-article-header">Email</h2><!--Header to identify use of article-->
+      <article class="article-type4"><!--Display this article to give a shadow effet for the div it contains-->
+        <div class="article4-div-content"><!--Used to show content in this page-->
 
-        <form class="form1" action="contact.html" method="post"><!--Form to contain contact details and items that can be interacted with-->
+          <h2 class="all-article-header">Email</h2><!--Header to identify use of article-->
 
-          <p class="text-class">Contact me at chris@maily.co.uk or use the input boxes below.</p><!--to display text and email address-->
+          <!--Reference [1] from link: https://www.google.co.uk/search?espv=2&q=html+form+element&oq=html+form+element&gs_l=serp.3..0l10.6109.13966.0.14537.17.11.0.6.6.0.84.658.11.11.0....0...1c.1.64.serp..0.17.677...0i67k1j0i131k1j0i10i67k1.mLb11RitqPs-->
 
-          <label for="input_name" type="text">Enter your name here</label>
-          <input id="input_name"><!--for the sender's name-->
+          <form class="form1" action="contact.html" method="post"><!--Form to contain contact details and items that can be interacted with--><!--Ref[1]-->
 
-          <label for="input_id" type="email">Enter your Email address here</label>
-          <input id="input_id"><!--for the sender's email so a return email can be sent-->
+            <p class="text-class">Contact me at chris@maily.co.uk or use the input boxes below.</p><!--to display text and email address-->
 
-          <label for="input_sub" type="text">Enter the subject here</label>
-          <input id="input_sub"><!--for the subject of the email-->
+            <label for="input_name" type="text">Enter your name here</label><!--Ref[1]-->
+            <input id="input_name"><!--for the sender's name--><!--Ref[1]-->
 
-          <label for="ta_id" type="email">Write your message here</label>
-          <textarea row="4" id="ta_id"></textarea><!--for the email to be entered-->
+            <label for="input_id" type="email">Enter your Email address here</label><!--Ref[1]-->
+            <input id="input_id"><!--for the sender's email so a return email can be sent--><!--Ref[1]-->
 
-          <button>Send Email</button><!--for the email to be sent when it's ready-->
+            <label for="input_sub" type="text">Enter the subject here</label><!--Ref[1]-->
+            <input id="input_sub"><!--for the subject of the email--><!--Ref[1]-->
 
-        </form>
+            <label for="ta_id" type="email">Write your message here</label><!--Ref[1]-->
+            <textarea row="4" id="ta_id"></textarea><!--for the email to be entered--><!--Ref[1]-->
 
-      </div>
-    </article>
-<!--end of this article-->
+            <button>Send Email</button><!--for the email to be sent when it's ready-->
+
+          </form>
+
+        </div>
+      </article>
+  <!--end of this article-->
+
+</div><!--end of row display-->
 
 
     <!--footer and its content-->
