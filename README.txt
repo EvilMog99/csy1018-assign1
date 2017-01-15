@@ -23,7 +23,7 @@ of the page and runs the animation slowly so that the user is not constantly bei
 As these colours are like other colours which can be found on the page it keeps the design simple.
 
 
-Both the HTML and CSS code has passed the W3C.org tests for errors and the icon to show that the CSS passed at a high standard can be seen in commit 31 on GitHub.
+Both the HTML and CSS code have passed the W3C.org tests for errors and the icon to show that the CSS passed at CSS Level 3 can be seen in commit 31 on GitHub.
 
 
   What was implemented incorrectly:
