@@ -59,12 +59,28 @@ body {/*set out the body of the page*/
   height: 30em;
 
 }
-.row-display{/*used to centre article held on the page*/
-  justify-content: space-around;/*give equal space between articles*/
+.row-display{/*used to centre article held on any page*/
+  justify-content: space-around;/*give equal space between articles and centres them on the screen*/
   flex-direction: row;
   display: flex;
 
   min-height: 50em;/*push footer to the bottom of the page*/
+}
+
+.bio-row-display{/*used to centre article held on the bio page*/
+  justify-content: space-around;/*give equal space between articles and centres them on the screen*/
+  flex-direction: row;
+  display: flex;
+
+  min-height: 50em;/*push footer to the bottom of the page*/
+}
+
+.cv-row-display{/*used to centre articles held on the cv page*/
+  justify-content: space-around;/*give equal space between articles and centres them on the screen*/
+  flex-direction: row;
+  display: flex;
+
+  min-height: 87em;/*push footer to the bottom of the page*/
 }
 
 .img-icon{/*for the images being used as icons*/
@@ -291,15 +307,29 @@ body {/*set out the body of the page*/
 
     margin: 2em;/*increase to make space above this element - to make content look more balanced*/
 
-    min-height: 225em;/*pushes footer to bottom of the screen and allows the articles inbetween to resize themselves*/
+    min-height: 225em;/*Allows space between articles in the column display*/
 
     margin-bottom: 3.5em;/*push footer further down*/
   }
 
   .row-display{
-    /*keep as row because there is only one article inside and the row display will centre it better*/
+    /*keep as row even if there is only one article inside, because the row display will centre it better*/
 
     min-height: 40em;/*push footer to the bottom of the page*/
+
+  }
+
+  .bio-row-display{
+    /*keep as row because there is only one article inside and the row display will centre it better*/
+
+    min-height: 60em;/*push footer to the bottom of the page*/
+
+  }
+
+  .cv-row-display{
+    /*keep as row because there is only one article inside and the row display will centre it better*/
+
+    min-height: 230em;/*push footer to the bottom of the page*/
 
   }
 
