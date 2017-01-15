@@ -27,14 +27,16 @@ Both the HTML and CSS code have passed the W3C.org tests for errors and the icon
 
 
   What was implemented incorrectly:
-Although article and div-content types 1, 2, 3 and 4 were implemented successfully to give a 3D effect the other features on the pages such as header, head, nav and footer
-don't have this effect added. One of the reasons for this is that the shadowing effect made by the article under the div-content would make the page look unbalanced
+Although article and div-content types 1, 2, 3 and 4 were implemented successfully to give a 3D effect the other features on the pages such as header, head(s), nav and footer
+don't have this effect added. The reason for this is that the shadowing effect made by the article under the div-content would make the page look unbalanced
 as it would have put a distance of 1em between the left side of the footer's/header's/head's/nav's content and the left-hand side of the screen, making the content look unbalanced.
-For this reason it was decided that the effect would only be used for large blocks of content held within the page. In addition this feature also helps to draw the user to look at the
+Because of this the effect is only used for large blocks of content held within the page. In addition this feature also helps to draw the user to look at the
 articles' content more than the rest of the page.
 
-One of the features which wasn't implemented so well was the resetting of the articles in terms of its display on other browsers. This is because although the website functions in the
-same way in Chrome and Firefox (to reset the articles to fit on the thinner screen), its media queries don't activate in the same way in Safari on Iphone devices.
+The resetting of the articles' shape and location on other browsers wasn't fully implemented correctly. This is because although the website functions in the
+same way in Chrome and Firefox (so the articles fit on a thinner screen), its media queries don't activate properly in Safari.
+
+Another problem is that the Send Email button causes an error when it's clicked, because it hasn't had its fully functionality added yet.
 
 
   Design:
